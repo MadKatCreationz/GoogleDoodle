@@ -1,0 +1,28 @@
+div {
+  outline: none;
+  
+  background-image: url("https://drive.google.com/drive/u/0/my-drive");
+  background-position: 0 0;
+  width: 435px;
+  height: 267px;
+  
+  animation: sprite 3s steps(45) infinite;
+}
+
+
+@keyframes sprite {
+  
+  0% { background-position: 0 0%; }
+ 
+  100% { background-position: 0 100%; }
+  
+}
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
